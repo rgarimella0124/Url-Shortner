@@ -1,7 +1,7 @@
 {
   "name": "url-shortner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Building a URL Shortener with Node.Js and Redis",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"

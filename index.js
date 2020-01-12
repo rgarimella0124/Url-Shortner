@@ -35,6 +35,7 @@ router.post("/api/short", async (req, res) => {
     // valid URL
     try {
       let hash = await models.storeURL(req.body.url);
+      console.log(req.body.url + " / " + hash);
       res.send(req.hostname + "/" + hash);
     } catch (e) {
       console.log(e);
