@@ -10,9 +10,13 @@ URL shortener works in two ways:
 
 ## Objective
 
--To short URL, 
--Generate A Random Hash and assign it to the original URL and store it in our database. 
+-To short URL,
+-Generate A Random Hash and assign it to the original URL and store it in our database.
 -On Request to the short URL, the system needs to look up in the database and if found, return the original URL for redirection.
+
+## Application Architecture
+
+![Architecture](https://github.com/rgarimella0124/Url-Shortner/master/img/Architecture.png)
 
 ## Stack
 
@@ -24,4 +28,6 @@ URL shortener works in two ways:
 - [shortid](https://www.npmjs.com/package/shortid)- Amazingly short non-sequential url-friendly unique id generator..
 - [valid-url](https://www.npmjs.com/package/valid-url)- To Check the Url is Valid or not.
 
+## Demo
 
+![Demo](https://github.com/rgarimella0124/Url-Shortner/master/img/Demo.png)
