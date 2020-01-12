@@ -5,14 +5,14 @@ A URL shortener is a pretty popular application on the Web. URL shortener saves 
 ## How URL Shortner works?
 
 URL shortener works in two ways:
--Generate a short URL based on the given URL.
--Redirect short URL to original URL.
+- Generate a short URL based on the given URL.
+- Redirect short URL to original URL.
 
 ## Objective
 
--To short URL,
--Generate A Random Hash and assign it to the original URL and store it in our database.
--On Request to the short URL, the system needs to look up in the database and if found, return the original URL for redirection.
+- To short URL,
+- Generate A Random Hash and assign it to the original URL and store it in our database.
+- On Request to the short URL, the system needs to look up in the database and if found, return the original URL for redirection.
 
 ## Application Architecture
 
