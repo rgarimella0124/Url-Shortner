@@ -1,13 +1,10 @@
 const shortId = require("shortid");
 const redisModule = require("redis");
-const redis = redisModule.createClient(
-  "redis://x:17f653632ba8438fa483efb09ec5cdc5@prompt-ponderosa-54b1ff6fc2.redisgreen.net:11042/",
-  {
-    host: "prompt-ponderosa-54b1ff6fc2.redisgreen.net",
-    port: 11042,
-    password: "aakriti01"
-  }
-);
+const redis = redisModule.createClient(process.env.URL, {
+  host: process.env.HOST,
+  port: process.env.PORT,
+  password: process.env.PWD
+});
 
 redis.on("connect", () => {
   console.log("Connected to Redis Server");
