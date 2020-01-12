@@ -16,7 +16,7 @@ URL shortener works in two ways:
 
 ## Application Architecture
 
-![Architecture](https://github.com/rgarimella0124/Url-Shortner/master/img/Architecture.png)
+![Architecture](https://github.com/rgarimella0124/Url-Shortner/blob/master/img/Architecture.png)
 
 ## Stack
 
@@ -30,4 +30,4 @@ URL shortener works in two ways:
 
 ## Demo
 
-![Demo](https://github.com/rgarimella0124/Url-Shortner/master/img/Demo.png)
+![Demo](https://github.com/rgarimella0124/Url-Shortner/blob/master/img/Demo.png)
