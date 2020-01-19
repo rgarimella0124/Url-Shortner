@@ -11,7 +11,7 @@ URL shortener works in two ways:
 ## Objective
 
 - To short URL,
-- Generate A Random Hash and assign it to the original URL and store it in our database.
+- Generate A Random Hash and assign it to the original URL and store it in database.
 - On Request to the short URL, the system needs to look up in the database and if found, return the original URL for redirection.
 
 ## Application Architecture
